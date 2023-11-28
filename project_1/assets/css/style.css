@@ -1,0 +1,53 @@
+body {
+  background-color: #F7F7F7;
+  color: #2f2f2f;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.container {
+  padding: 32px;
+}
+.container .form-container {
+  margin-bottom: 48px;
+}
+.container .form-container form .form-widget {
+  margin-bottom: 32px;
+}
+.container .form-container form .form-widget input {
+  padding: 8px;
+  width: 100%;
+}
+.container .form-container form .form-actions {
+  display: flex;
+  align-items: center;
+}
+.container .form-container form .form-actions button {
+  background-color: #2f2f2f;
+  color: #2f2f2f;
+  padding: 8px 32px;
+  border-radius: 10px;
+}
+.container .list-container {
+  margin-bottom: 48px;
+}
+.container .list-container ul {
+  list-style: none;
+  padding: 0px;
+}
+.container .list-container ul li {
+  padding: 16px;
+  border: 1px solid #2f2f2f;
+  letter-spacing: 0em;
+}
+.container .list-container ul li[class*=done] {
+  text-decoration: line-through;
+}
+.container .list-container ul li .desc {
+  font-weight: 600px;
+  font-size: 18px;
+}
+.container .list-container ul li .timestamp {
+  font-weight: 300px;
+  font-size: 12px;
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */
